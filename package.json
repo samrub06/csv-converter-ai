@@ -1,0 +1,21 @@
+{
+  "name": "csv-converter-ai",
+  "version": "1.0.0",
+  "description": "Generic mapping engine for GoHub product feeds",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^17.2.1",
+    "xlsx": "^0.18.5",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
