@@ -11,10 +11,7 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# Output files
-output-*.csv
-*.xlsx
-*.xls
+
 
 # Logs
 logs
